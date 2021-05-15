@@ -1,0 +1,132 @@
+body {
+    border: hotpink 3px dotted;
+}
+
+.fox {
+    width: 70px;
+    height: 57.5px;
+    border-radius: 50%;
+
+}
+
+.raccoon {
+    width: 70px;
+    height: 57.5px;
+    border-radius: 50%;
+}
+
+header {
+    border: green 3px solid;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: lightblue;
+}
+
+header > * {
+    font-size: 1.2rem;
+    padding: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*MAIN*/
+main {
+    border: hotpink 2px solid;
+    display: block;
+    text-align: center;
+}
+.google-div {
+    border: blue 5px solid;
+
+}
+
+.google-div img{
+    width: 272px;
+    height: 92px;
+
+}
+
+/*FORM*/
+
+.form{
+
+    border: orange 5px solid;
+    display: block;
+    padding: 10px;
+
+}
+
+.form > * {
+    border: black 2px solid;
+}
+
+.type-search{
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+    border: hotpink 2px solid;
+}
+
+.inputs {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.expl {
+    border: hotpink 5px solid;
+}
+
+
+
+
+/* FOOTER */
+footer {
+
+    background: lightblue;
+}
+
+footer div {
+
+    display: block;
+}
+
+.Aa {
+    border-bottom: blue 1px solid;
+    padding: 10px;
+}
+
+.Ba {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px 0px 10px 0px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    padding: 10px;
+
+}
