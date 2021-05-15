@@ -1,5 +1,4 @@
 body {
-    border: hotpink 3px dotted;
 }
 
 .fox {
@@ -16,7 +15,6 @@ body {
 }
 
 header {
-    border: green 3px solid;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -43,45 +41,51 @@ header > * {
 
 /*MAIN*/
 main {
-    border: hotpink 2px solid;
     display: block;
     text-align: center;
-}
-.google-div {
-    border: blue 5px solid;
+    margin-top: 100px;
 
 }
 
 .google-div img{
     width: 272px;
     height: 92px;
-
 }
+
+
 
 /*FORM*/
 
-.form{
-
-    border: orange 5px solid;
+.form {
     display: block;
     padding: 10px;
-
 }
 
-.form > * {
-    border: black 2px solid;
-}
 
 .type-search{
     width: 60%;
     padding: 10px;
     margin-bottom: 10px;
-    border-radius: 10%;
-    border: hotpink 2px solid;
+    border-radius: 30px;
+    border: hotpink 3px solid;
+
+}
+
+.type-search:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
 }
 
 .inputs {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
 
+[type=submit] {
+
+    background: pink;
+    font-size: 1.1rem;
+    font-family: "Agency FB";
+    border-radius: 15px;
 }
 
 
@@ -95,8 +99,10 @@ main {
 
 
 
-.expl {
-    border: hotpink 5px solid;
+
+
+a:hover{
+    color: hotpink;
 }
 
 
@@ -104,6 +110,11 @@ main {
 
 /* FOOTER */
 footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    position: fixed;
 
     background: lightblue;
 }
@@ -114,7 +125,7 @@ footer div {
 }
 
 .Aa {
-    border-bottom: blue 1px solid;
+    border-bottom: pink 3px solid;
     padding: 10px;
 }
 
@@ -128,5 +139,6 @@ footer div {
 h3 {
     font-size: 1.2rem;
     padding: 10px;
+
 
 }
